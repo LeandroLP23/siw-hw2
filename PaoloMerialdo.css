@@ -1,42 +1,46 @@
 html{
   height: 100%;
+  font-size: 1.4em;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
-body{
-  height:100%;
+h1 {
+	font-size: 2.5em; 
+	font-weight: bold; 
 }
-
-#flex-container{
-  display: flex ;
-  height: 100%;
+	
+h3 {
+	font-size: 1.3em;
 }
 
 #left-column{
-  margin-left: 3%;
+  font-size: 0.80em;
+  margin-left: 1%;
+  margin-top: 3%;
   position: fixed;
   height: 100%;
   width: 25%;
-  align-self: center;
   overflow-y: auto;
+  align-self: center;
 }
 
 #right-column{
+  background-color: rgba(232, 228, 198, 0.505);
   position: fixed;
   height: 100%;
   width: 70%;
-  margin-left: 30%;
+  margin-left: 29%;
   overflow-y: auto;
 }
 
 #profile-pic{
-  width: 65%;
+  width: 80%;
   margin-bottom: 3%;
 }
 
-#name {
+#name{
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   color: rgb(0,71,171);
 }
 
@@ -44,31 +48,23 @@ body{
   margin-left: 10%;
 }
 
-.header{
-  display: flex;
-  justify-content:center;
-  align-items: center;
+div.header{
+  font-size: 1.4em;
+  text-align: center;
   padding: 0.5%;
-  font-size: large;
-  background-color: rgb(0,71,171);
   color: white;
-  margin: 5px;
+  margin-right:1%;
+  margin-top: 1%;
+  background-color: rgb(0,71,171);
 }
 
-.teaching-header{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding: 0.5%;
-  font-size: large;
+div.teaching{
   background-color: rgb(255,192,0);
-  color: white;
-  margin: 5px;
 }
 
 .text-block{
-  text-align: justify;
-  width: 90%;
+  margin-left: 7%;
+  margin-right: 10%;
 }
 
 .site-link{
@@ -76,8 +72,7 @@ body{
   text-decoration: none;
 }
 
-.link{
-  font-size: large;
+a:link{
   text-decoration: none;
 }
 
@@ -86,25 +81,9 @@ body{
 }
 
 .little-span{
-  font-size: small;
+  font-size: 0.90em;
 }
 
-.table-box{
+.center-align{
   text-align: center;
-}
-
-table{
-  border-collapse: collapse;
-}
-
-td{
-  border-color: black;  
-  border: 1px solid;
-  height: 20px;
-}
-
-hr.rounded {
-  border-top: 2px solid #888;
-  border-collapse: collapse;
-  border-color: lightgray;
 }
